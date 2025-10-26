@@ -1,3 +1,37 @@
+#  INFO 5940 – Assignment 1: RAG Application  
+**Author:** Yiyang Dai  
+**Description:**  
+This project implements a **Retrieval-Augmented Generation (RAG)** application using **LangChain**, **ChromaDB**, and **Streamlit**.  
+Users can upload `.txt` and `.pdf` files, and then interact with their content through a chat interface powered by OpenAI models.
+
+---
+
+##  Features
+- Upload multiple documents (`.txt` and `.pdf`)
+- Automatic text chunking for large documents  
+- Adjustable parameters (chunk size, overlap, top-K retrieval)
+- Efficient document retrieval using **ChromaDB**
+- Context-aware chat interface via **Streamlit**
+- Rebuild index anytime from the sidebar
+
+---
+
+##  Technologies Used
+**Streamlit**  Web interface for chat and file upload 
+**LangChain**  Text splitting and retrieval logic 
+**ChromaDB** | Vector database for semantic search 
+**OpenAI API** | Embeddings and answer generation
+
+---
+
+##  How to Run
+1. **Open the terminal** in your Codespace  
+2. Set your API key (don’t include it in the repo):  
+   ```bash
+   export API_KEY="your_actual_API_KEY"
+
+
+
 # INFO 5940 
 Welcome to the INFO 5940 repository. You will complete your work using [**GitHub Codespaces**](#about-github-codespaces) and save your progress in your own GitHub repository. This guide will walk you through setting up the development environment and running the test notebook.  
 
