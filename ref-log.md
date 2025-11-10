@@ -1,1 +1,9 @@
+In the assignment 2: implanting the multi-agent workflow, I learnt how to assign different tasks for two agents and finally create a more reliable and interpretable ai system. In this assignment, The Planner agent and review agent play the complementary role. The planner agent give the structured itinerary and then the review agent validate the plan and using the internet search toll to check the feasibility of itinerary such as transportation times, prices, opening hours and so on. Writing two agents help me know how well-defined agent works and know sequencing can improve the accuracy.
 
+One biggest challenge is hard to organize all the requirements into effective prompts. In the beginning, I am struggled to decide what should the AI generate and how to make the plan more organized. And In the beginning the planner may generate long text and reviewer may miss key points. In order to solve this, I tried to refined the prompt into different sections and tell him the output format and constraints. 
+For the creative design, I let the planner acted as an professional traveller and the reviewer act as a meticulous traveller and It can improve the accuracy and feasibility and make the interaction more natural.
+
+In general, the system are well-structured and each agent do their responsibilities clear. There are still some points can be improved. For example the planner include too many details but the reviewer sometime will miss contextual cues. And the output can be more organized such as generating a form for the user in the end.
+
+External Tools / GenAI Assistance:
+The app was developed and tested in GitHub Codespaces with Streamlit. I used ChatGPT to refine wording and check whether the prompt is structured. And  finally checked whether the output aligned with the assignment template.
